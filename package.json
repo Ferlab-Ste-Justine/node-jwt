@@ -1,0 +1,35 @@
+{
+    "name": "@cr-ste-justine/jwt",
+    "version": "0.1.0",
+    "description": "Utilities to process jwt tokens",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/cr-ste-justine/node-jwt.git"
+    },
+    "bugs": {
+      "url": "https://github.com/cr-ste-justine/node-jwt.git/issues",
+      "email": "eric_vallee@webificservices.com"
+    },
+    "license": "GPLv3",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js",
+      "test": "mocha \"tests/*.js\""
+    },
+    "dependencies": {
+      "cookie": "^0.3.1",
+      "data.either": "^1.5.2",
+      "@cr-ste-justine/functional-utils": "^0.1.0",
+      "jsonwebtoken": "^8.5.1",
+      "ramda": "^0.26.1"
+    },
+    "devDependencies": {
+      "chai": "^4.2.0",
+      "mocha": "^7.0.0"
+    },
+    "files": [
+      "index.js",
+      "License.txt",
+      "README.md"
+    ]
+  }
