@@ -1,3 +1,5 @@
+![](https://github.com/cr-ste-justine/node-jwt/workflows/Continuous%20Integration/badge.svg)
+
 # Overview
 
 This repo contains an npm library implementing utilities to extract jwt tokens from request instances and verify the token once extracted.
